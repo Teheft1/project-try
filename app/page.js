@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex max-">
         <div>
           <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] mr-4 "
+              className="relative drop-shadow-md mr-4 "
               src="/yun.jpg"
               alt="my photo"
               width={155}
@@ -22,18 +22,26 @@ export default function Home() {
         </div>
         
         <div className="">
-          <h1 className='font-sans text-lg'>
+          <h1 className='font-mono text-lg'>
             Hi My Name is Yunus Dhanzky Handitra<br></br>
             I am student at State University of Surabaya
           </h1>
         </div>
       </div>
 
-      <div className='flex '>
-        <h2 className='font-mono text-xl font-bold'
-        >What am i Good at?</h2>
+      <div className='flex-col '>
+        <h2 className='font-mono text-xl font-bold '
+        >My Skill
+        </h2>
         <div className='grid'>
-
+          <Image
+            className='relative'
+            src="/html.svg"
+            alt="html photo"
+            priority
+            width={50}
+            height={50}
+          />
         </div>
       </div>
       <div>
