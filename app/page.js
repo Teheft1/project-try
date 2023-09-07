@@ -25,21 +25,22 @@ export default function Home() {
           </nav>
         </header>
         <main>
-          <div className="flex items-center justify-center pt-[35%] w-full h-full md:pt-[30%] lg:pt-[22.5%] xl:pt-[15%] ">
+          <div className="flex flex-col items-center justify-center pt-[34%] w-full h-full md:pt-[29%] lg:pt-[20.5%] xl:pt-[12%] ">
+              <Image
+                    src="/yun.jpg"
+                    alt="My photo"
+                    width={180}
+                    height={70}
+                    className='h-auto max-w-full rounded-full mb-[30px]'
+              />
               <h1 className="font-sans font-bold text-4xl mr-[15px] grid-cols-1">
                 Front-end Developer
-                <h2 className="font-sans text-lg font-normal mt-[15px]">
-                  Hi, My Name is Yunus Dhanzky Handitra i am a front-end web developer<br/>
-                  i can code a website from scratch and make a responsive web design.
-                </h2>
+                
               </h1>
-            <Image
-                  src="/yun.jpg"
-                  alt="My photo"
-                  width={180}
-                  height={70}
-                  className='h-auto max-w-full rounded-full m-[70px]'
-            />
+              <h2 className="font-sans text-lg font-normal mt-[15px]">
+              Hi, My Name is Yunus Dhanzky Handitra i am a front-end web developer<br/>
+              i can code a website from scratch and make a responsive web design.
+            </h2>
           </div>
           <div className="flex flex-col items-center justify-center m-12">
             <>
@@ -80,6 +81,17 @@ export default function Home() {
               />
             </div>
             
+          </div>
+          <div className='flex flex-col items-center justify-center '>
+            <>
+              <h2 className='font-sans text-2xl font-bold mb-6'>
+                My Project
+              </h2>
+            </>
+            <div className='grid grid-cols-2'>
+
+            </div>
+
           </div>
         </main>
       </body>
