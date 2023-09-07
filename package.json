@@ -1,7 +1,7 @@
 {
   "name": "project-try",
   "version": "0.1.0",
-  "homepage":"https://github.com/Teheft1/project-try.git",
+  "homepage":"https://github.com/Teheft1/project-try",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
